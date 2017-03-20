@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
 * {
   margin: 0;
   padding: 0;
-  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 /*HEADER*/
 header {
@@ -13,7 +14,7 @@ header {
 /*LOGO*/
 .logo {
   float: left;
-  height: 80px;
+  height: 100px;
   width: 33%;
   padding-left: 20px;
 }
@@ -24,10 +25,14 @@ header {
   text-shadow: 5px 3px 3px rgba(150, 150, 150, 1);
 }
 .logo__ay {
-  font-size: 60px;
+  font-size: 50px;
   text-transform: uppercase;
   color: #505051;
   text-shadow: 5px 3px 3px rgba(150, 150, 150, 1);
+}
+.logo__small {
+  font-size: 13px;
+  height: 15px;
 }
 /*TELEPHONE*/
 .info {
@@ -160,7 +165,7 @@ background-color: #dc5c4b;
 }
 
 /*SECTION ABOUT COMPANY*/
-.aboutCompany {
+#aboutCompany {
   clear: both;
   margin: 0 auto;
   width: 1300px;
@@ -187,7 +192,7 @@ background-color: #dc5c4b;
   background-color: #f7f7f7;
 }
 /*SECTION descript*/
-.descript {
+#descript {
   clear: both;
   margin: 0 auto;
   width: 1300px;
@@ -217,7 +222,7 @@ background-color: #dc5c4b;
   color: #fffff9;
 }
 /*SECTION prise*/
-.prise {
+#prises {
   margin: 0 auto;
   width: 1300px;
 }

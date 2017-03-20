@@ -1,29 +1,40 @@
-// for menu btn
-function scroll() {
+// for croll
+  $('#about').on('click', function () {
+    $.scrollport('#aboutCompany')
+    $( '#about' ).scrollport_link( '#aboutCompany' );
+    $.scrollport(  '#aboutCompany', {mode: 'usual', speed: 1500});
+  });
 
-  var aboutBtn = document.getElementById('about');
-  var uslugiBtn = document.getElementById('uslugi');
-  var priceBtn = document.getElementById('price');
-  var contactBtn = document.getElementById('contact');
+  $('#uslugi').on('click', function () {
+    $.scrollport('#descript')
+    $('#uslugi').scrollport_link('#descript');
+    $.scrollport( '#descript', {mode: 'usual', speed: 1500});
+  });
 
-  aboutBtn.onclick =  function () {
-    scrollBy(0, 800);
-  };
-  uslugiBtn.onclick = function () {
-    scrollBy(0, 1250);
-  };
-  priceBtn.onclick = function () {
-    scrollBy(0, 1620);
-  };
-  contactBtn.onclick = function () {
-    scrollBy(0, 1900);
-  };
-}
-scroll();
+  $('#price').on('click', function () {
+    $.scrollport('#prises')
+    $('#price').scrollport_link('#prises');
+    $.scrollport( '#prises', {mode: 'usual', speed: 1500});
+  });
+
+  $('#contact').on('click', function () {
+    $.scrollport('#foooterScroll')
+    $('#contact').scrollport_link('#foooterScroll');
+    $.scrollport( '#foooterScroll', {mode: 'usual', speed: 1500});
+  });
+
+
+
+
+
+
+
+
+// /
 // for animation in first section
 
-var text = {
-  rent: "Мы на рынке продаж автомобилей более 10-ти лет.",
-  sold: "Мы предоставляем помощь при продаже вашего автомобиля.",
-  wash: "Всегда можно помыть ваш автомобиль на нашей мойке."
-}
+// var text = {
+//   rent: "Мы на рынке продаж автомобилей более 10-ти лет.",
+//   sold: "Мы предоставляем помощь при продаже вашего автомобиля.",
+//   wash: "Всегда можно помыть ваш автомобиль на нашей мойке."
+// }
