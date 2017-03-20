@@ -3,9 +3,6 @@
   padding: 0;
   font-family: Geneva, Arial, Helvetica, sans-serif;
 }
-body {
-  background-color: #f7f7f7;
-}
 /*HEADER*/
 header {
   margin: 0 auto;
@@ -106,9 +103,9 @@ header {
   color: #f7f7f7;
   font-size: 30px;
 }
-.saleCar {
+/*.saleCar {
 background-color: #dc5c4b;
-}
+}*/
 .saleCar:hover {
   text-shadow: 2px 2px 0px #2a2d32;
 }
@@ -119,11 +116,14 @@ background-color: #dc5c4b;
   margin: 0 auto;
   width: 1300px;
   height: 600px;
-  background-color:#b8b8b8;
+  background-image: url(../img/bgImg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .allInfo {
   padding-top: 150px;
   text-align: center;
+  height: 300px;
 }
 .rent {
   width: 33%;
