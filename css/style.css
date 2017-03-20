@@ -29,15 +29,6 @@ header {
   color: #505051;
   text-shadow: 5px 3px 3px rgba(150, 150, 150, 1);
 }
-/*SPRITE ICON*/
-.sprite {
-  float: left;
-  width: 33%;
-  height: 100px;
-  background-image: url(../img/sprite_header.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-}
 /*TELEPHONE*/
 .info {
   float: right;
@@ -109,8 +100,6 @@ background-color: #dc5c4b;
 .saleCar:hover {
   text-shadow: 2px 2px 0px #2a2d32;
 }
-
-
 /*SECTION*/
 .section {
   margin: 0 auto;
@@ -125,41 +114,49 @@ background-color: #dc5c4b;
   text-align: center;
   height: 300px;
 }
+.holdBlock {
+  width: 33%;
+  float: left;
+  height: 280px;
+}
 .rent {
   width: 33%;
   float: left;
   background-image: url(../img/house.png);
   background-size: 200px;
   background-repeat: no-repeat;
-  background-position: top center;
-  height: 280px;
+  background-position: center 15px;
+  height: 330px;
   font-size: 30px;
+  background-color: rgba( 0, 0, 0, 0.7);
 }
-.soldCar {
+.sold {
   width: 33%;
   float: left;
   background-image: url(../img/reunion.png);
   background-size: 200px;
   background-repeat: no-repeat;
-  background-position: top center;
-  height: 280px;
+  background-position: center 15px;
+  height: 330px;
   font-size: 30px;
+  background-color: rgba( 0, 0, 0, 0.7);
 }
 .wash {
-  width: 33%;
+  width: 33.5%;
   float: left;
   background-image: url(../img/car-wash.png);
   background-size: 200px;
   background-repeat: no-repeat;
-  background-position: top center;
-  height: 280px;
+  background-position: center 15px;
+  height: 330px;
   font-size: 30px;
+  background-color: rgba( 0, 0, 0, 0.7);
 }
 .text__section {
   padding-top: 220px;
   padding-left: 25px;
   width: 400px;
-  color: #505051;
+  color: #fffff9;
 }
 
 /*SECTION ABOUT COMPANY*/

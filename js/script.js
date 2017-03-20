@@ -1,4 +1,4 @@
-
+// for menu btn
 function scroll() {
 
   var aboutBtn = document.getElementById('about');
@@ -20,3 +20,10 @@ function scroll() {
   };
 }
 scroll();
+// for animation in first section
+
+var text = {
+  rent: "Мы на рынке продаж автомобилей более 10-ти лет.",
+  sold: "Мы предоставляем помощь при продаже вашего автомобиля.",
+  wash: "Всегда можно помыть ваш автомобиль на нашей мойке."
+}
