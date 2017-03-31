@@ -56,7 +56,7 @@ header {
   text-decoration: none;
 }
 /*MENU*/
-.headerMenu {
+#headerMenu {
   margin: 0 auto;
   width: 1300px;
   height:50px;
@@ -99,11 +99,18 @@ header {
   color: #f7f7f7;
   font-size: 30px;
 }
-/*.saleCar {
-background-color: #dc5c4b;
-}*/
+
 .saleCar:hover {
   text-shadow: 2px 2px 0px #2a2d32;
+}
+/*FOR FIX MENU*/
+.default {
+    width:1300px;
+}
+.fixed {
+    position:fixed;
+    left: 142px;
+    top: -10px;
 }
 /*SECTION*/
 .section {

@@ -22,19 +22,14 @@
     $('#contact').scrollport_link('#foooterScroll');
     $.scrollport( '#foooterScroll', {mode: 'usual', speed: 1500});
   });
-
-
-
-
-
-
-
-
-// /
-// for animation in first section
-
-// var text = {
-//   rent: "Мы на рынке продаж автомобилей более 10-ти лет.",
-//   sold: "Мы предоставляем помощь при продаже вашего автомобиля.",
-//   wash: "Всегда можно помыть ваш автомобиль на нашей мойке."
-// }
+// FOR MENU FIX
+  $(document).ready(function(){
+    var $menu = $("#headerMenu");
+        $(window).scroll(function(){
+              if ( $(this).scrollTop() > 100 && $menu.hasClass("default") ){
+                  $menu.removeClass("default").addClass("fixed");
+              } else if($(this).scrollTop() <= 100 && $menu.hasClass("fixed")) {
+                  $menu.removeClass("fixed").addClass("default");
+              }
+          });
+      });
