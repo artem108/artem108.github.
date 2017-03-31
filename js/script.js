@@ -22,8 +22,9 @@
     $('#contact').scrollport_link('#foooterScroll');
     $.scrollport( '#foooterScroll', {mode: 'usual', speed: 1500});
   });
-// FOR MENU FIX
+
   $(document).ready(function(){
+    // FOR MENU FIX
     var $menu = $("#headerMenu");
         $(window).scroll(function(){
               if ( $(this).scrollTop() > 100 && $menu.hasClass("default") ){
@@ -32,4 +33,79 @@
                   $menu.removeClass("fixed").addClass("default");
               }
           });
-      });
+
+    // CHANGE IMAGE
+  var $block = $ ("#section");
+function changeBg() {
+setTimeout( function () {
+     $block.removeClass("bgImage1").addClass("bgImage2");
+   },3000);
+
+setTimeout( function() {
+    $block.removeClass("bgImage2").addClass("bgImage3");
+  },6000);
+
+  setTimeout( function () {
+   $block.removeClass("bgImage3").addClass("bgImage1");
+ },9000);
+
+ setTimeout( function () {
+  $block.removeClass("bgImage1").addClass("bgImage2");
+},12000);
+
+setTimeout( function () {
+ $block.removeClass("bgImag2").addClass("bgImage3");
+},15000);
+
+setTimeout( function () {
+ $block.removeClass("bgImage3").addClass("bgImage1");
+},18000);
+
+setTimeout( function () {
+ $block.removeClass("bgImage1").addClass("bgImage2");
+},21000);
+
+};
+
+changeBg();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      //

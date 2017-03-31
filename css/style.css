@@ -21,12 +21,14 @@ header {
 .logo__dr {
   font-size: 80px;
   text-transform: uppercase;
+  font-weight: bold;
   color: #505051;
   text-shadow: 5px 3px 3px rgba(150, 150, 150, 1);
 }
 .logo__ay {
   font-size: 50px;
   text-transform: uppercase;
+  font-weight: bold;
   color: #505051;
   text-shadow: 5px 3px 3px rgba(150, 150, 150, 1);
 }
@@ -113,11 +115,26 @@ header {
     top: -10px;
 }
 /*SECTION*/
-.section {
+#section {
   margin: 0 auto;
   width: 1300px;
   height: 600px;
-  background-image: url(../img/bgImg.png);
+}
+.bgImage1 {
+   transition: 2s;
+  background-image: url(../img/bgimage1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgImage2 {
+   transition: 2s;
+  background-image: url(../img/bgimage2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgImage3 {
+   transition: 2s;
+  background-image: url(../img/bgimage3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
