@@ -1,3 +1,4 @@
+$(document).ready(function(){
 // for croll
   $('#about').on('click', function () {
     $.scrollport('#aboutCompany')
@@ -23,7 +24,6 @@
     $.scrollport( '#foooterScroll', {mode: 'usual', speed: 1500});
   });
 
-  $(document).ready(function(){
     // FOR MENU FIX
     var $menu = $("#headerMenu");
         $(window).scroll(function(){
@@ -35,41 +35,26 @@
           });
 
     // CHANGE IMAGE
-  var $block = $ ("#section");
 function changeBg() {
-setTimeout( function () {
+
+  var $block = $ ("#section");
+
+setInterval( function () {
      $block.removeClass("bgImage1").addClass("bgImage2");
    },3000);
 
-setTimeout( function() {
+setInterval( function() {
     $block.removeClass("bgImage2").addClass("bgImage3");
   },6000);
 
-  setTimeout( function () {
+setInterval( function () {
    $block.removeClass("bgImage3").addClass("bgImage1");
  },9000);
 
- setTimeout( function () {
-  $block.removeClass("bgImage1").addClass("bgImage2");
-},12000);
-
-setTimeout( function () {
- $block.removeClass("bgImag2").addClass("bgImage3");
-},15000);
-
-setTimeout( function () {
- $block.removeClass("bgImage3").addClass("bgImage1");
-},18000);
-
-setTimeout( function () {
- $block.removeClass("bgImage1").addClass("bgImage2");
-},21000);
-
 };
 
+
 changeBg();
-
-
 
 
 

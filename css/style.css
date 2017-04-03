@@ -12,30 +12,23 @@ header {
   background-color: #f7f7f7;
 }
 /*LOGO*/
-.logo {
+.holdLogo {
   float: left;
   height: 100px;
   width: 33%;
   padding-left: 20px;
+  text-align: center;
 }
-.logo__dr {
-  font-size: 80px;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #505051;
-  text-shadow: 5px 3px 3px rgba(150, 150, 150, 1);
+.logo {
+  margin-top: 15px;
+  height: 70px;
+  width: 70%;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+
 }
-.logo__ay {
-  font-size: 50px;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #505051;
-  text-shadow: 5px 3px 3px rgba(150, 150, 150, 1);
-}
-.logo__small {
-  font-size: 13px;
-  height: 15px;
-}
+
 /*TELEPHONE*/
 .info {
   float: right;
