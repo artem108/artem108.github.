@@ -181,6 +181,22 @@ header {
   width: 400px;
   color: #fffff9;
 }
+#scrollTop {
+  width:50px;
+  height: 50px;
+  border-radius: 50px;
+  background:#f7f7f7;
+  text-align:center;
+  padding:5px;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  cursor:pointer;
+  display:none;
+  background-image: url(../img/up.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
 /*SECTION ABOUT COMPANY*/
 #aboutCompany {

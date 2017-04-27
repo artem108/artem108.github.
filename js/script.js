@@ -32,11 +32,9 @@ $(document).ready(function(){
                   $menu.removeClass("default").addClass("fixed");
               } else if($(this).scrollTop() <= 100 && $menu.hasClass("fixed")) {
                   $menu.removeClass("fixed").addClass("default");
-              } else if (windowWidth > 500) {
-                $("#headerMenu").removeClass("default");
-                $("#headerMenu").removeClass("fixed");
               }
           });
+          
 
     // CHANGE IMAGE
 function changeBg() {
@@ -57,5 +55,18 @@ setInterval( function () {
 
 };
 changeBg();
-// for mobile remove class
+// for uo position
+$(function() {
+    $(window).scroll(function() {
+      if($(this).scrollTop() != 0) {
+        $('#scrollTop').fadeIn();
+      } else {
+        $('#scrollTop').fadeOut();
+      }
+    });
+$('#scrollTop').click(function() {
+    $('body,html').animate({scrollTop:0},800);
+});
+
+});
 });
