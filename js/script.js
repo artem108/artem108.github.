@@ -26,12 +26,13 @@ $(document).ready(function(){
 
     // FOR MENU FIX
     var $menu = $("#headerMenu");
+    var windowWidth = $(window).width();
         $(window).scroll(function(){
               if ( $(this).scrollTop() > 100 && $menu.hasClass("default") ){
                   $menu.removeClass("default").addClass("fixed");
               } else if($(this).scrollTop() <= 100 && $menu.hasClass("fixed")) {
                   $menu.removeClass("fixed").addClass("default");
-              }
+              } else if (windowWidth > 500)$("#headerMenu").removeClass("default");
           });
 
     // CHANGE IMAGE
@@ -52,9 +53,11 @@ setInterval( function () {
  },9000);
 
 };
-
-
 changeBg();
+// for mobile remove class
+
+
+
 
 
 
