@@ -24,7 +24,7 @@ header {
 #headerMenu {
   margin: 0 auto;
   margin-top: 10px;
-  width: 134%;
+  width: 135%;
   text-align: center;
  height: 1700px;
 
@@ -45,6 +45,7 @@ header {
   margin-top: 150px;
   height: 100px;
   background-color: #2a2d32;
+  -webkit-appearance: none;
 }
 .menu ul li input {
   text-decoration: none;
@@ -53,6 +54,7 @@ header {
   background-color: #2a2d32;
   color: #fffff9;
   border-bottom: 1px solid #ffdb43;
+  -webkit-appearance: none;
 }
 .menu ul li input:hover {
   color: #ffdb43;
