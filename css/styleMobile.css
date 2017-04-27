@@ -67,6 +67,15 @@ header {
 .saleCar:hover {
   text-shadow: 2px 2px 0px #2a2d32;
 }
+#scrollTop {
+width: 100px;
+height: 100px;
+border-radius: 50px;
+background-image: url(../img/up.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
 #section {
   position: relative;
   display: none;
