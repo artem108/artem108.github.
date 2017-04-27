@@ -32,7 +32,10 @@ $(document).ready(function(){
                   $menu.removeClass("default").addClass("fixed");
               } else if($(this).scrollTop() <= 100 && $menu.hasClass("fixed")) {
                   $menu.removeClass("fixed").addClass("default");
-              } else if (windowWidth > 500)$("#headerMenu").removeClass("default");
+              } else if (windowWidth > 500) {
+                $("#headerMenu").removeClass("default");
+                $("#headerMenu").removeClass("fixed");
+              }
           });
 
     // CHANGE IMAGE
